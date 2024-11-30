@@ -1,0 +1,19 @@
+.inputFrame {
+  @apply flex flex-col sm:flex-row items-center sm:justify-evenly gap-4;
+}
+
+.inputBody {
+  @apply flex flex-col gap-8 w-full p-4;
+}
+
+.inputEle {
+  @apply bg-purple-50 sm:bg-white p-4 sm:p-2 rounded-lg;
+}
+
+.inputSelect {
+  @apply bg-transparent outline-none font-medium w-full;
+}
+
+.inputNumber {
+  @apply bg-transparent outline-none font-medium text-violet-600 w-full;
+}
